@@ -369,7 +369,7 @@
                 <version>2.2</version>
                 <configuration>
                     <server>tomcat-development-server</server>
-                    <port>9966</port>
+                    <url>http://localhost:6080/manager/text</url> 
                     <path>/petclinic</path>
                 </configuration>
             </plugin>
