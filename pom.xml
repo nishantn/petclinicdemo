@@ -370,6 +370,8 @@
                 <configuration>
                     <server>tomcat-development-server</server>
                     <url>http://localhost:4080/manager/text</url> 
+                    <username>admin</username>
+                    <password>password</password>
                 <path>/${project.build.finalName}</path>
                 </configuration>
             </plugin>
