@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework.samples</groupId>
     <artifactId>petclinic</artifactId>
-    <version></version>
+    <version>1</version>
 
-    <name>petclinic</name>
+    <name>petclinic1</name>
     <packaging>war</packaging>
 
     <properties>
@@ -324,7 +324,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
-                    <warName>petclinic</warName>
+                    <warName>petclinic1</warName>
                 </configuration>
             </plugin>
             <plugin>
