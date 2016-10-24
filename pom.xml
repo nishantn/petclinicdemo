@@ -369,7 +369,7 @@
                 <version>2.2</version>
                 <configuration>
                     <server>tomcat-development-server</server>
-                    <url>http://localhost:4080/manager</url> 
+                    <url>http://localhost:4080/manager/text</url> 
                 <path>/${project.build.finalName}</path>
                 </configuration>
             </plugin>
