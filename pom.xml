@@ -6,7 +6,7 @@
     <artifactId>petclinic</artifactId>
     <version>1</version>
 
-    <name>petclinic1</name>
+    <name>petclinic-1</name>
     <packaging>war</packaging>
 
     <properties>
@@ -324,7 +324,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
-                    <warName>petclinic1</warName>
+                    <warName>petclinic-1</warName>
                 </configuration>
             </plugin>
             <plugin>
