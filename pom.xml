@@ -442,5 +442,12 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>cental</id>
+                <name>Maven Repository</name>
+                <url>https://repo.maven.apache.org/maven2</url>
+                            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
     </repositories>
 </project>
