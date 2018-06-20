@@ -16,5 +16,10 @@ pipeline {
         }
       }
     }
+    stage('Deploy in QA') {
+      steps {
+        sh 'echo "In Deploy"'
+      }
+    }
   }
 }
