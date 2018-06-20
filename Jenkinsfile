@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         git(url: 'https://github.com/nishantn/petclinicdemo.git', branch: 'master', poll: true)
+        sh 'echo "In Build"'
       }
     }
   }
